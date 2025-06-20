@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Web clone</title>
 </head>
+
 <body>
-    <h1 style="color: blue; text-align: center;">Welcome to the Web Clone</h1>
-    <p style="font-size: 18px; text-align: center;">This is a simple web page clone.</p>
+    <header>
+        <nav>
+            <div class="logo"><img src="./assets/logo.svg" alt="logo"></div>
+            <ul>
+                <li class="download"><a>Download <i class="fa-solid fa-download"></i></a></li>
+                <li><a href="#">Travel planner</a></li>
+                <li><a href="#">Register accommodation</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">My travels</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>The whole accommodation just for you</h1>
+                <div class="seek-container">
+                    <div class="seek-item location">
+                        <i class="fa fa-location-dot"></i>
+                        <input type="text" placeholder="Where should we go?">
+                    </div>
+                    <div class="seek-item date">
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <div>
+                            <span>Date</span>
+                            <input type="" placeholder="June 28 - July 12">
+                        </div>
+                    </div>
+                    <div class="seek-item date">
+                        <i class="fa-regular fa-user"></i>
+                        <div>
+                            <span>Guest</span>
+                            <input type="" placeholder="June 28 - July 12">
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button class="seek-button">Seek</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
